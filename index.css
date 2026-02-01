@@ -1,0 +1,118 @@
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+  
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary: #4060FF;
+    --spacing0: 5px;
+    --spacing1: 25px;
+    --spacing2: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.border {
+    border: 2px solid rgb(73, 73, 73);
+    border-radius: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.owl-imgs {
+    width: 40%;
+}
+
+.main-game {
+    margin: var(--spacing2);
+    padding: var(--spacing2);
+    max-width: 500px;
+}
+
+.primary-btn {
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: large;
+    border-radius: 10px;
+    border: 0;
+    margin-top: var(--spacing1);
+}
+
+.primary-btn:active {
+    background-color: rgb(1, 37, 85);
+}
+
+#instructions {
+    display: block;
+}
+
+#gameplay {
+    display: none;
+}
+
+#gameover {
+    margin-top: var(--spacing1);
+    display: none;
+}
+
+#game-stats {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: var(--spacing0);
+}
+
+#game-current-level-info {
+    margin-top: var(--spacing1);
+}
+
+
+#game-options {
+    margin-top: var(--spacing1);
+}
+
+.game-option {
+    padding: 20px 20px;
+    box-shadow: 0px 0px 1px 1px rgb(226, 226, 226);
+    border-radius: 5px;
+    margin-top: var(--spacing1);
+    border: 3px solid rgb(0,0,0,0);
+
+    &:hover {
+        cursor: pointer;
+        background-color: aliceblue;
+    }
+}
+
+.correct-answer {
+    background-color: #E4FFE2;
+    border: 3px solid green;
+    &:hover {
+        cursor: auto;
+        background-color: #E4FFE2;
+    }
+}
+
+.wrong-answer {
+    background-color: #FFEBEB;
+    &:hover {
+        cursor: auto;
+        background-color: #FFEBEB;
+    }
+}
+

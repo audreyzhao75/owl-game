@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Soren",
+        "gender": "Male",
+        "species": "Barn Owl",
+        "scientificName": "Tyto alba",
+        "charPic": "soren.png",
+        "realPic": "barnowl.jpg"
+    },
+    {
+        "name": "Gylfie",
+        "gender": "Female",
+        "species": "Elf Owl",
+        "scientificName": "Micrathene whitneyi",
+        "charPic": "gylfie.png",
+        "realPic": "elf-owl.jpg"
+    },
+    {
+        "name": "Digger",
+        "gender": "Male",
+        "species": "Burrowing Owl",
+        "scientificName": "Athene cunicularia",
+        "charPic": "Digger.webp",
+        "realPic": "Burrowing-owl.webp"
+    },
+    {
+        "name": "Twilight",
+        "gender": "Male",
+        "species": "Great Gray Owl",
+        "scientificName": "Strix nebulosa",
+        "charPic": "twilight.webp",
+        "realPic": "greatgray.jpg"
+    }
+]

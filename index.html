@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owl Identification Game</title>
+    <link href="index.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <div class="main-game border text-center">
+            <h1>Guardians of Ga’Hoole Owls</h1>
+            <div id="instructions">
+                <p class="text-content">Learn how to identify different kinds of owls by their species or scientific name through one of my favorite series/movies as a kid!</p>
+                <p class="text-content">You get 3 hearts, go as long as you can without making a mistake!</p>
+                <button class="primary-btn start-game-btn">Start</button>
+            </div>
+            <div id="gameplay">
+                <div id="game-stats">
+                    <p>Score: <span id="score"></span></p>
+                    <p>Hearts: <span id="hearts"></span></p>
+                </div>
+                <div id="game-current-level-info">
+                    <img id="owl-image" class="owl-imgs" src="media/movie/soren.png" />
+                    <p>Name: <span id="nameField">--</span></p>
+                    <p>Gender: <span id="genderField">--</span></p>
+                    <p>Species: <span id="speciesField">--</span></p>
+                    <p>Scientific Name: <span style="font-style: italic;" id="sciNameField">--</span></p>
+                </div>
+                <div id="game-options">
+                    <p style="font-weight: bold;">What is the <span id="question">species</span> of this owl?</p>
+                    <div id="option1" class="game-option">--</div>
+                    <div id="option2" class="game-option">--</div>
+                </div>
+            </div>
+            <div id="gameover">
+                <p style="font-weight: bold;">Game over!</p>
+                <p class="text-content">You reached a final score of: <span id="final-score">0</span></p>
+                <button class="primary-btn start-game-btn">Restart</button>
+            </div>
+
+            <audio id="correctSound" src="media/correct.mp3" preload="auto"></audio>
+            <audio id="wrongSound" src="media/wrong-answer-buzzer.mp3" preload="auto"></audio>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
